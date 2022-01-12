@@ -1,0 +1,22 @@
+#gallery {
+border: 1px solid red;
+}
+
+section #gallery_box {
+    width:745px;
+    height:200px;
+    margin:10px 0 0 5px;
+    border:solid 1px #cccccc;
+    border-radius:10px;
+    border-shadow:2px 2px 5px #dddddd;
+}
+
+section #gallery_box .items {
+    float:left;
+    margin:15px 0 0 40px;
+    text-align:center;
+}
+
+section #gallery_box .items li {
+    margin-top:10px;
+}

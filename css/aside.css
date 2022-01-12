@@ -1,0 +1,66 @@
+aside #login_box {
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    background-color:#f3f3f3;
+    width:175px;
+    height: 95px;
+    padding:10px;
+}
+
+aside #login_input {
+    float:left;
+    font-size: 13p;
+}
+
+aside #login_btn {
+    float:left;
+    margin-left:5px
+}
+
+aside #login_input input {
+    width:90px;
+    border: 1px solid #cccccc;
+    margin:2px 0 2px 0;
+    font-size: 11pt;
+}
+
+aside #input_button {
+    margin: 0px 0 0 8px;
+}
+
+aside {
+    width:200px;
+    float:left;
+}
+
+aside #login_title {
+    margin:5px 0 10px 0;
+}
+
+aside #join_search {
+    margin-top:5px;
+}
+
+aside #guestbook {
+    width:200px;
+    height:160px;
+    margin-top:15px;
+    background-color:#eeeeee;
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    box-shadow:2px 2px 5px #dddddd
+}
+
+aside #guestbook_title {
+    width:165px;
+    padding:5px 0 0 5px;
+    margin: 5px 0 10px 20px;
+    border-bottom:1px solid #cccccc;
+}
+aside #guestbook li {
+    list-style-image:url("../img/icon_blue.gif");
+    margin-top:5px;
+}
+aside #guestbook ul {
+    margin:0 0 0 50px;
+}
