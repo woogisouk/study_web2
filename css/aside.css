@@ -4,7 +4,7 @@ aside #login_box {
     background-color:#f3f3f3;
     width:175px;
     height: 95px;
-    padding:10px;
+    padding:5px;
 }
 
 aside #login_input {
@@ -64,3 +64,44 @@ aside #guestbook li {
 aside #guestbook ul {
     margin:0 0 0 50px;
 }
+
+/** 서브 메뉴 **/
+
+aside nav#sub_menu {
+    background-image: url("../img/sub_menu_bg.png");
+    background-repeat: no-repeat;
+    height: 330px;
+    margin-top:10px;
+}
+aside nav#sub_menu ul{
+    padding:90px 0 0 25px;
+}
+
+aside nav#sub_menu ul li {
+    margin:0px 0 5px 0px;
+}
+
+aside nav#sub_menu ul a:link {
+    text-decoration:none;
+    font-size:14pt;
+    color: #444444;
+}
+aside nav#sub_menu ul a:hover {
+    text-decoration:none;
+    color: #0000ff;
+}
+aside nav#sub_menu ul a:visited {
+    text-decoration:none;
+    color: #444444;
+}
+aside nav#sub_menu ul a:active {
+    text-decoration:none;
+    color: #444444;
+}
+
+aside #sub_benner {/*
+border:1px solid red;
+    height:30px;*/
+}
+
+/** 서브 메뉴 end **/

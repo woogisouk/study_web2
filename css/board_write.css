@@ -1,0 +1,35 @@
+/** board write **/
+
+section#board_main table {
+    margin: 0 auto;
+    border-collapse: collapse;
+border:1px solid red;
+    width: 100%;
+}
+
+section#board_main td {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px;
+}
+
+section#board_main td.col1{
+    width: 150px;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+}
+
+
+
+/** buttons **/
+div#buttons {
+    margin-top:35px;
+}
+
+div#buttons .col1{
+    float:left;
+    margin-left:300px;
+}
+div#buttons .col2{
+    float:right;
+    margin-right:45px;
+}

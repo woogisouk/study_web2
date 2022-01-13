@@ -1,11 +1,12 @@
+
 section#main{
-border:1px solid red;
+/*border:1px solid red;*/
     width:787px;
     float:right;
 }
 
 section#main #notice_free_youtube{
-border:1px solid red;
+/*border:1px solid red;*/;
     width:400px;
     height:260px;
     position:relative;
@@ -43,18 +44,18 @@ section#main #notice_free_youtube #notice .list .subject {
     width:200px;
 }
 section#main #notice_free_youtube #notice {
-border:1px solid red;
+/*border:1px solid red;*/
     height:120px;
 }
 section#main #notice_free_youtube #free {
-border:1px solid red;
+/*border:1px solid red;*/
     width:398px;
     height:120px;
     position:absolute;
     top:120px;
 }
 section#main #notice_free_youtube #youtube {
-border:1px solid red;
+/*border:1px solid red;*/
     height:240px;
     position:absolute;
     top:0px;
@@ -100,3 +101,4 @@ section#main #notice_free_youtube #youtube #youtube_title {
 section#main #notice_free_youtube #youtube #youtube_img {
     margin:5px 0 0 30px;
 }
+

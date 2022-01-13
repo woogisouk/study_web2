@@ -1,0 +1,102 @@
+/** 메인 컨텐츠 **/
+h2#board_title {
+    margin-top:20px;
+    border-bottom:1px solid #bbbbbb;
+    padding: 0 0 5px 0;
+    width:758px;
+}
+
+section#main{
+    float:right;
+}
+
+div#total_search{
+    position:relative;
+/*border:1px solid red;*/
+}
+
+div#total {
+    position: relative;
+    top:10px;
+/*border:1px solid red;*/
+}
+div#search_img{
+    position:absolute;
+    left:420px;
+    top:10px;
+/*border:1px solid red;*/
+}
+div#search_select {
+    position:absolute;
+    top:10px;
+    left:490px;
+}
+div#search_input {
+    position:absolute;
+    top:10px;
+    left:570px;
+}
+div#search_input input{
+    width:100px;
+}
+div#search_btn {
+    position:absolute;
+    top:8px;
+    left:690px;
+}
+
+table#list_table{
+    position:relative;
+    top:25px;
+    border-collapse:collapse;
+}
+
+table#list_table th {
+    border-top:solid 1px #dddddd;
+    background-color:#eeeeee;
+}
+
+table#list_table td {
+    border-bottom:solid 1px #dddddd;
+}
+
+table#list_table tr {
+    height:30px;
+}
+
+table#list_table .col1{
+    text-align:center;
+    width:40px;
+}
+table#list_table .col2{
+    width:510px;
+}
+table#list_table a:link{
+    text-decoration:none;
+}
+
+table#list_table .col3{
+    text-align:center;
+    width:70px;
+}
+table#list_table .col4{
+    text-align:center;
+    width:100px;
+}
+table#list_table .col5{
+    text-align:center;
+    width:40px;
+}
+
+div#buttons {
+    margin-top:35px;
+}
+
+div#buttons .col1{
+    float:left;
+    margin-left:300px;
+}
+div#buttons .col2{
+    float:right;
+    margin-right:45px;
+}
