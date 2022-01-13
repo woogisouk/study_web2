@@ -1,0 +1,85 @@
+/** board_view **/
+section#main h2#board_title{
+    margin:20px 0 10px 0;
+}
+
+section#board_main{
+    width: 758px;
+}
+
+section#board_main table {
+    margin: 0 auto;
+    border-collapse: collapse;
+/*border:1px solid red; */
+    width: 100%;
+}
+
+section#board_main table tr#subject{
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    background-color: #eeeeee;
+    border-top:solid 2px #bbbbbb;
+    border-bottom:solid 1px #bbbbbb;
+}
+
+section#board_main div#subject_col1 {
+    float: left;
+    margin:5px 0 5px 10px;
+}
+section#board_main div#subject_col2 {
+    float: right;
+    margin:5px 10px 5px 0;
+}
+
+section#board_main tr#content td.content_view {
+    margin: 5px 0 5px 0;
+    padding: 15px 10px 15px 10px;
+}
+
+section#board_main tr#comment{
+    height:100px;
+    position: relative;
+    border-top: solid 1px #bbbbbb;
+}
+
+section#board_main tr#comment .col1{
+/*border-top:solid 1px red;*/
+    background-color: #eeeeee;
+}
+
+section#board_main tr#comment #title_comment{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+section#board_main tr#comment #ok_ripple{
+    float: right;
+    position: absolute;
+    top:10px;
+    left:670px
+}
+
+section#board_main tr#comment div#comment_text {
+    position: absolute;
+    top:10px;
+    left:140px;
+}
+
+section#board_main tr#comment div#comment_text textarea {
+    width:520px;
+    height:80px;
+}
+/** buttons **/
+div#buttons {
+    margin-top:35px;
+}
+
+div#buttons .col1{
+    float:left;
+    margin-left:300px;
+}
+div#buttons .col2{
+    float:right;
+}

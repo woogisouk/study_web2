@@ -42,7 +42,7 @@ aside #join_search {
 }
 
 aside #guestbook {
-    width:200px;
+    width:185px;
     height:160px;
     margin-top:15px;
     background-color:#eeeeee;
@@ -52,7 +52,7 @@ aside #guestbook {
 }
 
 aside #guestbook_title {
-    width:165px;
+    width:140px;
     padding:5px 0 0 5px;
     margin: 5px 0 10px 20px;
     border-bottom:1px solid #cccccc;

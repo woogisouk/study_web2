@@ -1,4 +1,8 @@
 /** board write **/
+section#main {
+    width: 759px;
+    margin-right: 28px;
+}
 
 section#board_main table {
     margin: 0 auto;
@@ -18,7 +22,19 @@ section#board_main td.col1{
     border-right: 1px solid #cccccc;
 }
 
+section#main h2#board_title {
+    margin-top:20px;
+    padding: 0 0 5px 0;
+}
 
+section#main #write_title{
+    text-align: center;
+    margin: 10px 0 0 0;
+    padding: 5px;
+    background-color: #eeeeee;
+    border-top:solid 2px #bbbbbb;
+    border-bottom:solid 1px #bbbbbb;
+}
 
 /** buttons **/
 div#buttons {

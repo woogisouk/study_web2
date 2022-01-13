@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
     <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/board_list.css">
+    <link rel="stylesheet" type="text/css" href="css/board_view.css">
 </head>
 <body>
 <div id="wrap">
     <header>
-        <a href="index.html"><img id="logo" src="img/logo.png"></a>
+        <a href="index.html"> <img id="logo" src="img/logo.png"></a>
         <nav id="top_menu">
             <a href="index.html">HOME</a> | LOGIN | JOIN | NOTICE
         </nav>
@@ -46,7 +46,7 @@
         </article><!-- login box -->
         <nav id="sub_menu">
             <ul>
-                <li><a href="board_list">+ aaaaaaaa</a></li>
+                <li><a href="#">+ aaaaaaaa</a></li>
                 <li><a href="#">+ bbbbbbbb</a></li>
                 <li><a href="#">+ ccccccccc</a></li>
                 <li><a href="#">+ dddddd</a></li>
@@ -65,54 +65,34 @@
         <img src="img/comm.gif">
         <h2 id="board_title">자----------판</h2>
         <section id="board_main">
-            <div id="total_search">
-                <div id="total">▷ 총 -------------------다.</div>
-                <div id="search_img"><img src="img/select_search.gif"></div>
-                <div id="search_select">
-                    <select>
-                        <option>aaaaaa</option>
-                        <option>bbbbbb</option>
-                        <option>cccccc</option>
-                    </select>
-                </div>
-                <div id="search_input"><input type="text"></div>
-                <div id="search_btn"><img src="img/search_button.gif"></div>
-            </div>
-<!--            <div class="clear"></div>-->
-            <table id="list_table">
-                <tr>
-                    <th>번호</th>
-                    <th>제목</th>
-                    <th>글쓴이</th>
-                    <th>일시</th>
-                    <th>조회수</th>
+            <table>
+                <tr id="subject">
+                    <th class="subject_view">
+                        <div id="subject_col1"><h3>--------aa-----------</h3></div>
+                        <div id="subject_col2"><h4>루바토 | 조회 : 200 | 0000-00-00 (00:00)</h4></div>
+                    </th>
                 </tr>
-                <tr>
-                    <td class="col1">1</td>
-                    <td class="col2"><a href="#">---------aa---------</a></td>
-                    <td class="col3">aaaaaaa</td>
-                    <td class="col4">0000-00-00</td>
-                    <td class="col5">123</td>
+                <tr id="content">
+                    <td class="content_view">
+                        ----------------------aa------------------<br>
+                        ----------------------aa------------------<br>
+                        ----------------------aa------------------<br>
+                        ----------------------aa------------------<br>
+                        ----------------------aa------------------<br>
+                    </td>
                 </tr>
-                <tr>
-                    <td class="col1">2</td>
-                    <td class="col2"><a href="#">---------bb---------</a></td>
-                    <td class="col3">bbbbbb</td>
-                    <td class="col4">0000-00-00</td>
-                    <td class="col5">12</td>
-                </tr>
-                <tr>
-                    <td class="col1">3</td>
-                    <td class="col2"><a href="#">---------cc---------</a></td>
-                    <td class="col3">cccccc</td>
-                    <td class="col4">0000-00-00</td>
-                    <td class="col5">123</td>
+                <tr id="comment">
+                    <td class="col1">
+                        <img id="title_comment" src="img/title_comment.gif">
+                        <div id="comment_text"> <textarea></textarea> </div>
+                        <img id="ok_ripple" src="img/ok_ripple.gif">
+                    </td>
                 </tr>
             </table>
             <div id="buttons">
-                <div class="col1">◀ 이전 1 다음 ▶</div>
                 <div class="col2">
-                    <img src="img/list.png">
+                    <img src="img/delete.png">
+                    <a href="board_list.html"><img src="img/list.png"></a>
                     <a href="board_write.html"><img src="img/write.png"></a>
                 </div>
             </div>
